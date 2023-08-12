@@ -1,0 +1,84 @@
+boy{
+    margin:0 ;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 50px; /* Задайте подходящую ширину для вашего логотипа */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #f0ad4e; /* Измените цвет при наведении на ссылку */
+  }
+
+
+
+
+  .news {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .news-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .news-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .news-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .news-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .news-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+
+
+  video{
+    width: 600px;
+    height: 500px;
+  }
